@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Отправка в n8n webhook
-    const webhookUrl = 'https://n8n.autopine.ru/webhook/barberosa-booking';
+    const webhookUrl = 'https://n8n.autopine.ru/webhook/d160150a-7119-4aa3-9375-9a2de5197026';
 
     try {
       await fetch(webhookUrl, {
