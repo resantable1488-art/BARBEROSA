@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(awk:*)",
+      "Bash(echo:*)",
+      "Bash(npm run dev:*)",
+      "Read(//tmp/**)",
+      "Bash(npx next dev)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(del nul)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
